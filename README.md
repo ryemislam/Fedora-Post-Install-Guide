@@ -168,11 +168,12 @@ bash <(curl -fsSL https://raw.githubusercontent.com/amir1376/ab-download-manager
 
 ### Flatpaks
 
-**Bitwarden**, **Bottles**, **Czkawka**, **Fan Control**, **Fooyin**, **FreeFileSync**, **Heroic Games Launcher**, **Mission Center**, **Moonlight**, **Obsidian**, **OBS Studio**, **ONLYOFFICE Desktop Editors**, **qBittorrent**, **Remote Desktop Manager**, **Resources**, **Shiftey Desktop**, **Spotify**, **Stream Controller**, **Vesktop**, **ZapZap**
+```
+Bitwarden, Bottles, Czkawka, Fan Control, Fooyin, FreeFileSync, Heroic Games Launcher, Mission Center, Moonlight, Obsidian, OBS Studio, ONLYOFFICE Desktop Editors, qBittorrent, Remote Desktop Manager, Resources, Shiftey Desktop, Spotify, Stream Controller, Vesktop, ZapZap
+```
 
 ```
 flatpak install flathub com.bitwarden.desktop com.usebottles.bottles com.github.qarmin.czkawka io.github.wiiznokes.fan-control org.fooyin.fooyin org.freefilesync.FreeFileSync com.heroicgameslauncher.hgl io.missioncenter.MissionCenter com.moonlight_stream.Moonlight md.obsidian.Obsidian com.obsproject.Studio org.onlyoffice.desktopeditors org.qbittorrent.qBittorrent com.devolutions.remotedesktopmanager net.nokyan.Resources io.github.shiftey.Desktop com.spotify.Client com.core447.StreamController dev.vencord.Vesktop com.rtosta.zapzap
-
 ```
 
 ### My Favourite Apps
