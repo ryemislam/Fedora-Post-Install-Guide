@@ -33,7 +33,6 @@ sudo dnf -y upgrade --refresh
 sudo reboot
 ```
 
-
 ## Flatpak
 * Fedora doesn't include all non-free flatpaks by default. The command below enables access to all the flathub flatpaks. Particularly useful for users of Fedora KDE and other spins since they do not get the "Enable Third Party Repositories" option on initial boot.
 ```
@@ -122,9 +121,16 @@ sudo systemctl disable NetworkManager-wait-online.service
 ## Apps
 
 #### Essentials
-
 ```
 sudo dnf install btop deskflow goverlay iperf3 kitty kate steam syncthing micro mpv
+```
+
+#### Fish Shell
+```
+sudo dnf install fish
+```
+```
+chsh -s /usr/bin/fish
 ```
 
 #### LACT:
@@ -133,11 +139,9 @@ Lact allows you to control your AMD, Nvidia or Intel GPU on a Linux system.
 ```
 sudo dnf copr enable ilyaz/LACT
 ```
-
 ```
 sudo dnf install lact
 ```
-
 ```
 sudo systemctl enable --now lactd
 ```
@@ -148,11 +152,9 @@ Low Latency Remote Gaming
 ```
 sudo dnf copr enable lizardbyte/beta
 ```
-
 ```
 sudo dnf install sunshine
 ```
-
 ```
 systemctl --user enable sunshine.service
 systemctl --user start sunshine.service
@@ -166,8 +168,11 @@ bash <(curl -fsSL https://raw.githubusercontent.com/amir1376/ab-download-manager
 
 ### Flatpaks
 
+**Bitwarden**, **Bottles**, **Czkawka**, **Fan Control**, **Fooyin**, **FreeFileSync**, **Heroic Games Launcher**, **Mission Center**, **Moonlight**, **Obsidian**, **OBS Studio**, **ONLYOFFICE Desktop Editors**, **qBittorrent**, **Remote Desktop Manager**, **Resources**, **Shiftey Desktop**, **Spotify**, **Stream Controller**, **Vesktop**, **ZapZap**
+
 ```
-flatpak install flathub com.usebottles.bottles com.spotify.Client com.heroicgameslauncher.hgl com.obsproject.Studio org.onlyoffice.desktopeditors md.obsidian.Obsidian org.qbittorrent.qBittorrent com.bitwarden.desktop io.missioncenter.MissionCenter com.rtosta.zapzap dev.vencord.Vesktop com.moonlight_stream.Moonlight net.nokyan.Resources io.github.shiftey.Desktop io.github.wiiznokes.fan-control com.devolutions.remotedesktopmanager com.core447.StreamController com.github.qarmin.czkawka org.fooyin.fooyin org.freefilesync.FreeFileSync
+flatpak install flathub com.bitwarden.desktop com.usebottles.bottles com.github.qarmin.czkawka io.github.wiiznokes.fan-control org.fooyin.fooyin org.freefilesync.FreeFileSync com.heroicgameslauncher.hgl io.missioncenter.MissionCenter com.moonlight_stream.Moonlight md.obsidian.Obsidian com.obsproject.Studio org.onlyoffice.desktopeditors org.qbittorrent.qBittorrent com.devolutions.remotedesktopmanager net.nokyan.Resources io.github.shiftey.Desktop com.spotify.Client com.core447.StreamController dev.vencord.Vesktop com.rtosta.zapzap
+
 ```
 
 ### My Favourite Apps
@@ -242,6 +247,11 @@ flatpak install flathub com.usebottles.bottles com.spotify.Client com.heroicgame
 * https://github.com/vinceliuice/Orchis-theme
 * https://github.com/vinceliuice/Graphite-gtk-theme
 
+### KDE Themes
+- https://store.kde.org/p/2305670
+- https://store.kde.org/p/2053458
+- https://store.kde.org/p/1326896
+- https://store.kde.org/p/2222239
 ### Use themes in Flatpaks
 * `sudo flatpak override --filesystem=$HOME/.themes`
 * `sudo flatpak override --env=GTK_THEME=my-theme` 
