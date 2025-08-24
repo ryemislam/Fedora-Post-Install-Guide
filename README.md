@@ -216,6 +216,11 @@ flatpak install flathub com.bitwarden.desktop com.usebottles.bottles com.github.
 | Browser              | vivaldi, firefox                                         |
 | Video Player         | mpv, vlc                                                 |
 | Virtual Machine      | virt-manager                                             |
+### Remove Some Unused Application
+
+```
+sudo dnf remove kmahjongg kmines kpat libreoffice-data akregator kmail korganizer neochat dragon kmouth kchatselect
+```
 
 ### Gnome Extensions
 * Suggestions for good utilities to extend the capabilities of your system
