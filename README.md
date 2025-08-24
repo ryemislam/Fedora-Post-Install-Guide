@@ -168,9 +168,8 @@ bash <(curl -fsSL https://raw.githubusercontent.com/amir1376/ab-download-manager
 
 ### Flatpaks
 
-```
-Bitwarden, Bottles, Czkawka, Fan Control, Fooyin, FreeFileSync, Heroic Games Launcher, Mission Center, Moonlight, Obsidian, OBS Studio, ONLYOFFICE Desktop Editors, qBittorrent, Remote Desktop Manager, Resources, Shiftey Desktop, Spotify, Stream Controller, Vesktop, ZapZap
-```
+
+`Bitwarden, Bottles, Czkawka, Fan Control, Fooyin, FreeFileSync, Github Desktop, Heroic Games Launcher, Mission Center, Moonlight, Obsidian, OBS Studio, ONLYOFFICE Desktop Editors, qBittorrent, Remote Desktop Manager, Resources, Spotify, Stream Controller, Vesktop, ZapZap`
 
 ```
 flatpak install flathub com.bitwarden.desktop com.usebottles.bottles com.github.qarmin.czkawka io.github.wiiznokes.fan-control org.fooyin.fooyin org.freefilesync.FreeFileSync com.heroicgameslauncher.hgl io.missioncenter.MissionCenter com.moonlight_stream.Moonlight md.obsidian.Obsidian com.obsproject.Studio org.onlyoffice.desktopeditors org.qbittorrent.qBittorrent com.devolutions.remotedesktopmanager net.nokyan.Resources io.github.shiftey.Desktop com.spotify.Client com.core447.StreamController dev.vencord.Vesktop com.rtosta.zapzap
@@ -178,42 +177,45 @@ flatpak install flathub com.bitwarden.desktop com.usebottles.bottles com.github.
 
 ### My Favourite Apps
 
-| Category             | App Name                         |
-| -------------------- | -------------------------------- |
-| Launcher             | albert                           |
-| Download Manager     | brisk, ab-download-manager       |
-| Password Manager     | bitwarden                        |
-| FAN                  | coolercontrol                    |
-| Duplicate Finder     | czkawka                          |
-| Photo Editor         | darktable                        |
-| Video Editor         | davinci-resolve, kdenlive        |
-| KVM                  | deskflow                         |
-| Music Player         | fooyin                           |
-| Terminal             | kitty                            |
-| Git                  | github-desktop                   |
-| Game Stats           | goverlay                         |
-| Games                | heroic-games-launcher, steam     |
-| Bootable USB         | isoimagewriter, balena etcher    |
-| System Monitor Tools | btop, mission-center, resources  |
-| GPU Monitor          | lact                             |
-| File Manager         | krusader, dolphin                |
-| Phone                | kdeconnect                       |
-| Text Editor          | kate                             |
-| Disk Benchmark       | kdiskmark                        |
-| Desktop Environment  | KDE                              |
-| Notes                | obsidian                         |
-| Store                | octopi, paru (Arch only)         |
-| Office               | onlyoffice                       |
-| RGB                  | openrgb                          |
-| Compatibility Tool   | ProtonPlus                       |
-| Mirror Android       | Scrcpy                           |
-| Remote Desktop       | moonlight-qt, sunshine, Rustdesk |
-| Sync Tool            | syncthing, freefilesync          |
-| Social Media         | vesktop                          |
-| Encryption           | veracrypt                        |
-| Browser              | vivaldi, Firefox                 |
-| Video Player         | mpv, vlc                         |
-| Virtual Machine      | Virt Manager                     |
+| Category             | App Name                                                 |
+| -------------------- | -------------------------------------------------------- |
+| Launcher             | albert                                                   |
+| Download Manager     | brisk, ab-download-manager                               |
+| Password Manager     | bitwarden                                                |
+| FAN                  | coolercontrol, fancontrol                                |
+| Duplicate Finder     | czkawka                                                  |
+| Photo Editor         | darktable                                                |
+| Video Editor         | davinci-resolve, kdenlive                                |
+| KVM                  | deskflow                                                 |
+| Music Player         | fooyin, elisa, spotify                                   |
+| Terminal             | kitty                                                    |
+| Git                  | github-desktop                                           |
+| Game Stats           | goverlay                                                 |
+| Games                | heroic-games-launcher, steam                             |
+| Bootable USB         | isoimagewriter, balena etcher                            |
+| System Monitor Tools | btop, mission-center, resources                          |
+| GPU Monitor          | lact                                                     |
+| File Manager         | krusader, dolphin                                        |
+| Phone                | kdeconnect                                               |
+| Text Editor          | kate                                                     |
+| Disk Benchmark       | kdiskmark                                                |
+| Desktop Environment  | KDE                                                      |
+| Notes                | obsidian                                                 |
+| Store                | octopi, paru (Arch only)                                 |
+| Office               | onlyoffice                                               |
+| RGB                  | openrgb                                                  |
+| Compatibility Tool   | ProtonPlus                                               |
+| Mirror Android       | Scrcpy                                                   |
+| Remote Desktop       | moonlight-qt, sunshine, rustdesk, remote-desktop-manager |
+| Streaming            | obs-studio                                               |
+| Torrent              | qbittorrent                                              |
+| Stream Deck          | stream-controller                                        |
+| Sync Tool            | syncthing, freefilesync                                  |
+| Social Media         | vesktop, zapzap                                          |
+| Encryption           | veracrypt                                                |
+| Browser              | vivaldi, firefox                                         |
+| Video Player         | mpv, vlc                                                 |
+| Virtual Machine      | virt-manager                                             |
 
 ### Gnome Extensions
 * Suggestions for good utilities to extend the capabilities of your system
